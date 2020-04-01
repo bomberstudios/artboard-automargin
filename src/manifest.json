@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Automargin",
+      "identifier": "automargin",
+      "script": "./automargin.js",
+      "handlers": {
+        "onDocumentChanged": "onDocumentChanged"
+      }
+    },
+    {
+      "name": "Settings…",
+      "script": "./settings.js",
+      "handler": "Settings",
+      "identifier": "settings"
+    },
+    {
+      "name": "Exclude Selection",
+      "identifier": "exclude",
+      "script": "./automargin.js",
+      "handler": "tagLayerExclude"
+    },
+    {
+      "name": "Include Selection",
+      "identifier": "include",
+      "script": "./automargin.js",
+      "handler": "tagLayerInclude"
+    }
+  ],
+  "menu": {
+    "title": "Artboard Automargin",
+    "items": [
+      "exclude",
+      "include",
+      "settings"
+    ]
+  }
+}
