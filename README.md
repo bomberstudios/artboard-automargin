@@ -1,5 +1,7 @@
 # Artboard Automargin
 
+> Warning: this plugin contains a pretty nasty bug with Undo, please don’t use it by now 😅
+
 ## What is this?
 
 This plugin will adjust the X position and width of any object dragged into an Artboard, so that they expand to take the full width of the Artboard, minus a specified margin (see Artboard Automargin › Settings… to adjust it).
