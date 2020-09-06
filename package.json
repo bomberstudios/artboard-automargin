@@ -23,5 +23,8 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Ale Muñoz <bomberstudios@gmail.com>"
+  "author": "Ale Muñoz <bomberstudios@gmail.com>",
+  "dependencies": {
+    "serialize-javascript": "^3.1.0"
+  }
 }
